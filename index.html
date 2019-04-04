@@ -7,6 +7,13 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
 
   <title>Countdown</title>
+  <script>
+    function myFunction() {
+      var d = new Date();
+      var n = d.getFullYear();
+      document.getElementById("year").innerHTML = n;
+    }
+</script>
 </head>
 <body>
   <section>
@@ -31,7 +38,7 @@
     </section>
 
     <footer>
-      <p>Alexandru Bostan - &copy;2015</p>
+      <p>Alexandru Bostan - &copy;<span id="year"></span></p>
       <a href="https://twitter.com/AlexandruBostan" class="ion-social-twitter"></a>
       <a href="https://it.linkedin.com/in/alexandrubostan" class="ion-social-linkedin"></a>
       <a href="https://github.com/abostan" class="ion-social-github"></a>
