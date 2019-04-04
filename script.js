@@ -14,6 +14,7 @@ var $days = document.getElementById("d");
 var $hours = document.getElementById("h");
 var $minutes = document.getElementById("m");
 var $seconds = document.getElementById("s");
+var $year = document.getElementById("year");
 
 // Calculate the countdown clock and set the HTML.
 function update() {
